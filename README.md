@@ -17,13 +17,12 @@
 2. [System Architecture](#-system-architecture)
 3. [Dataset](#-dataset)
 4. [Model Performance](#-model-performance)
-5. [Project Structure](#-project-structure)
-6. [Installation](#-installation)
-7. [Running the Pipeline](#-running-the-pipeline)
-8. [Technical Deep Dive](#-technical-deep-dive)
-9. [Results](#-results)
-10. [Authors](#-authors)
-11. [References](#-references)
+5. [Installation](#-installation)
+6. [Running the Pipeline](#-running-the-pipeline)
+7. [Technical Deep Dive](#-technical-deep-dive)
+8. [Results](#-results)
+9. [Authors](#-authors)
+10. [References](#-references)
 
 ---
 
