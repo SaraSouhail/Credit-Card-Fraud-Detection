@@ -109,32 +109,6 @@ All models were evaluated on a held-out validation set using Accuracy, Precision
 
 ---
 
-## 📁 Project Structure
-
-```
-Credit-Card-Fraud-Detection/
-│
-├── data/
-│   ├── raw/                    # Original Kaggle CSV (creditcard.csv)
-│   └── processed/              # Rebalanced & split datasets (train/val/test)
-│
-├── models/
-│   └── xgboost_model.pkl       # Serialized XGBoost model loaded at runtime
-│
-├── notebooks/
-│   ├── 01_eda.ipynb            # Exploratory Data Analysis & class distribution
-│   ├── 02_rebalancing.ipynb    # Under-sampling, over-sampling, weight column
-│   └── 03_model_training.ipynb # Training all 6 models + evaluation + comparison
-│
-├── scripts/
-│   ├── kafka_producer.py       # Reads CSV → publishes JSON to Kafka topic
-│   └── spark_consumer.py       # Spark Structured Streaming + XGBoost inference
-│
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## ⚙️ Installation
 
